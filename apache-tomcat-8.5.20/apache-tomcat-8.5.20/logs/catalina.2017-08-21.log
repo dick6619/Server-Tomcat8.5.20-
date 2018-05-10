@@ -1,0 +1,614 @@
+21-Aug-2017 00:44:55.320 警告 [http-nio-2000-exec-2] org.springframework.web.servlet.PageNotFound.noHandlerFound No mapping found for HTTP request with URI [/spring-mvc4-jpa/restWS/getEmps3] in DispatcherServlet with name 'dispatcher'
+21-Aug-2017 00:44:59.633 警告 [http-nio-2000-exec-10] org.springframework.web.servlet.PageNotFound.noHandlerFound No mapping found for HTTP request with URI [/spring-mvc4-jpa/restWS/getEmp1] in DispatcherServlet with name 'dispatcher'
+21-Aug-2017 00:45:02.282 警告 [http-nio-2000-exec-3] org.springframework.web.servlet.PageNotFound.noHandlerFound No mapping found for HTTP request with URI [/spring-mvc4-jpa/restWS/getEmp] in DispatcherServlet with name 'dispatcher'
+21-Aug-2017 00:50:47.517 資訊 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+21-Aug-2017 00:50:47.517 資訊 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-2000"]
+21-Aug-2017 00:50:47.611 資訊 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+21-Aug-2017 00:50:47.798 資訊 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-Aug-2017 00:50:47.829 資訊 [220.132.152.68-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+21-Aug-2017 00:50:47.829 資訊 [220.132.152.68-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+21-Aug-2017 00:50:47.860 資訊 [220.132.152.68-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcher'
+21-Aug-2017 00:50:47.860 資訊 [220.132.152.68-startStop-2] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Sun Aug 20 23:55:07 CST 2017]; parent: Root WebApplicationContext
+21-Aug-2017 00:50:47.860 資訊 [220.132.152.68-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+21-Aug-2017 00:50:47.860 資訊 [220.132.152.68-startStop-2] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing Root WebApplicationContext: startup date [Sun Aug 20 23:55:04 CST 2017]; root of context hierarchy
+21-Aug-2017 00:50:47.860 資訊 [220.132.152.68-startStop-2] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.destroy Closing JPA EntityManagerFactory for persistence unit 'spring-jpa-unit'
+21-Aug-2017 00:50:47.892 資訊 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-2000"]
+21-Aug-2017 00:50:47.892 資訊 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+21-Aug-2017 00:50:47.892 資訊 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-2000"]
+21-Aug-2017 00:50:47.892 資訊 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+21-Aug-2017 19:11:31.324 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.20
+21-Aug-2017 19:11:31.340 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 2 2017 21:35:49 UTC
+21-Aug-2017 19:11:31.340 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.20.0
+21-Aug-2017 19:11:31.340 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+21-Aug-2017 19:11:31.340 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+21-Aug-2017 19:11:31.340 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Aug-2017 19:11:31.340 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_144\jre
+21-Aug-2017 19:11:31.340 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+21-Aug-2017 19:11:31.340 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-Aug-2017 19:11:31.340 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20
+21-Aug-2017 19:11:31.340 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20
+21-Aug-2017 19:11:31.340 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\conf\logging.properties
+21-Aug-2017 19:11:31.340 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Aug-2017 19:11:31.340 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Aug-2017 19:11:31.340 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Aug-2017 19:11:31.340 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20
+21-Aug-2017 19:11:31.340 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20
+21-Aug-2017 19:11:31.340 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\temp
+21-Aug-2017 19:11:31.340 資訊 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\apache-maven-3.5.0\bin;C:\ProgramData\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Users\Dick_Lin\AppData\Local\GitHubDesktop\bin;.]
+21-Aug-2017 19:11:31.418 資訊 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-80"]
+21-Aug-2017 19:11:31.527 資訊 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Aug-2017 19:11:31.527 資訊 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+21-Aug-2017 19:11:31.542 資訊 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Aug-2017 19:11:31.542 資訊 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 501 ms
+21-Aug-2017 19:11:31.558 資訊 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Aug-2017 19:11:31.558 資訊 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.20
+21-Aug-2017 19:11:31.574 資訊 [220.132.152.68-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\spring-mvc4-jpa.war]
+21-Aug-2017 19:11:33.665 警告 [220.132.152.68-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = TestDB Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+21-Aug-2017 19:11:33.681 警告 [220.132.152.68-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = TestDB Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "-1" for "maxWait" property, which is being ignored.
+21-Aug-2017 19:11:33.759 資訊 [220.132.152.68-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Aug-2017 19:11:33.774 資訊 [220.132.152.68-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+21-Aug-2017 19:11:33.805 資訊 [220.132.152.68-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+21-Aug-2017 19:11:33.805 資訊 [220.132.152.68-startStop-1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+21-Aug-2017 19:11:33.852 資訊 [220.132.152.68-startStop-1] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Mon Aug 21 19:11:33 CST 2017]; root of context hierarchy
+21-Aug-2017 19:11:33.899 資訊 [220.132.152.68-startStop-1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from file [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\spring-mvc4-jpa\WEB-INF\classes\META-INF\spring\iii-data.xml]
+21-Aug-2017 19:11:34.008 資訊 [220.132.152.68-startStop-1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from file [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\spring-mvc4-jpa\WEB-INF\classes\META-INF\spring\iii-service.xml]
+21-Aug-2017 19:11:34.180 資訊 [220.132.152.68-startStop-1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from file [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\spring-mvc4-jpa\WEB-INF\classes\META-INF\spring\iii-ws.xml]
+21-Aug-2017 19:11:34.195 資訊 [220.132.152.68-startStop-1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+21-Aug-2017 19:11:34.211 資訊 [220.132.152.68-startStop-1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from class path resource [META-INF/cxf/cxf-servlet.xml]
+21-Aug-2017 19:11:34.507 資訊 [220.132.152.68-startStop-1] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory Building JPA container EntityManagerFactory for persistence unit 'spring-jpa-unit'
+21-Aug-2017 19:11:34.523 INFO [220.132.152.68-startStop-1] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [
+	name: spring-jpa-unit
+	...]
+21-Aug-2017 19:11:34.601 INFO [220.132.152.68-startStop-1] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.2.10.Final}
+21-Aug-2017 19:11:34.601 INFO [220.132.152.68-startStop-1] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+21-Aug-2017 19:11:34.648 INFO [220.132.152.68-startStop-1] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+21-Aug-2017 19:11:34.960 INFO [220.132.152.68-startStop-1] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+21-Aug-2017 19:11:35.241 INFO [220.132.152.68-startStop-1] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 5.4.1.Final
+21-Aug-2017 19:11:35.568 資訊 [220.132.152.68-startStop-1] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory Initialized JPA EntityManagerFactory for persistence unit 'spring-jpa-unit'
+21-Aug-2017 19:11:35.787 資訊 [220.132.152.68-startStop-1] org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {http://impl.ws.emp.iii.com/}EmployeeSOAPImplService from class com.iii.emp.ws.EmployeeSOAP
+21-Aug-2017 19:11:36.223 資訊 [220.132.152.68-startStop-1] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /iii/emp/ws001
+21-Aug-2017 19:11:36.255 資訊 [220.132.152.68-startStop-1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 2450 ms
+21-Aug-2017 19:11:36.333 資訊 [220.132.152.68-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'dispatcher'
+21-Aug-2017 19:11:36.348 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+21-Aug-2017 19:11:36.348 資訊 [220.132.152.68-startStop-1] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Aug 21 19:11:36 CST 2017]; parent: Root WebApplicationContext
+21-Aug-2017 19:11:36.348 資訊 [220.132.152.68-startStop-1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/mvcConfig/mvcConfig.xml]
+21-Aug-2017 19:11:36.646 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/employee/editEmpView/{empno}],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.iii.emp.controller.EmployeeController.getEditEmpForm(java.lang.String)
+21-Aug-2017 19:11:36.646 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/employee/editEmp],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.iii.emp.controller.EmployeeController.editEmpVO(com.iii.emp.domain.EmpVO,com.iii.dept.domain.DeptVO)
+21-Aug-2017 19:11:36.646 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/employee/addEmp],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.iii.emp.controller.EmployeeController.addEmpVO(com.iii.emp.domain.EmpVO,com.iii.dept.domain.DeptVO)
+21-Aug-2017 19:11:36.646 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/employee/deleteEmp],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.iii.emp.controller.EmployeeController.deleteEmp(java.lang.String)
+21-Aug-2017 19:11:36.646 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/employee/emps],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.iii.emp.controller.EmployeeController.getEmps()
+21-Aug-2017 19:11:36.661 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/restWS/getEmps1],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.iii.emp.controller.EmployeeWSController.getEmps1() throws java.lang.Exception
+21-Aug-2017 19:11:36.661 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/restWS/getEmps2],methods=[GET]}" onto public java.util.List<com.iii.emp.domain.EmpVO> com.iii.emp.controller.EmployeeWSController.getEmps3() throws java.lang.Exception
+21-Aug-2017 19:11:36.661 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/restWS/getEmp/{empno}],methods=[GET]}" onto public com.iii.emp.domain.EmpVO com.iii.emp.controller.EmployeeWSController.getEmp4(java.lang.String)
+21-Aug-2017 19:11:36.661 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/restWS/getEmpLike/{ename}],methods=[GET]}" onto public java.util.List<com.iii.emp.domain.EmpVO> com.iii.emp.controller.EmployeeWSController.getEmp5(java.lang.String)
+21-Aug-2017 19:11:36.661 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/restWS/testDefault]}" onto public java.lang.String com.iii.emp.controller.EmployeeWSController.testDefault()
+21-Aug-2017 19:11:36.895 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Aug 21 19:11:36 CST 2017]; parent: Root WebApplicationContext
+21-Aug-2017 19:11:36.942 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Aug 21 19:11:36 CST 2017]; parent: Root WebApplicationContext
+21-Aug-2017 19:11:37.005 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/addView] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+21-Aug-2017 19:11:37.005 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+21-Aug-2017 19:11:37.036 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 688 ms
+21-Aug-2017 19:11:37.051 資訊 [220.132.152.68-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\spring-mvc4-jpa.war] has finished in [5,477] ms
+21-Aug-2017 19:11:37.051 資訊 [220.132.152.68-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\docs]
+21-Aug-2017 19:11:37.176 警告 [220.132.152.68-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = TestDB Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+21-Aug-2017 19:11:37.176 警告 [220.132.152.68-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = TestDB Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "-1" for "maxWait" property, which is being ignored.
+21-Aug-2017 19:11:37.176 資訊 [220.132.152.68-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Aug-2017 19:11:37.176 資訊 [220.132.152.68-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\docs] has finished in [125] ms
+21-Aug-2017 19:11:37.176 資訊 [220.132.152.68-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\examples]
+21-Aug-2017 19:11:38.112 警告 [220.132.152.68-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = TestDB Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+21-Aug-2017 19:11:38.112 警告 [220.132.152.68-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = TestDB Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "-1" for "maxWait" property, which is being ignored.
+21-Aug-2017 19:11:38.237 資訊 [220.132.152.68-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Aug-2017 19:11:38.284 資訊 [220.132.152.68-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+21-Aug-2017 19:11:38.284 資訊 [220.132.152.68-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+21-Aug-2017 19:11:38.299 資訊 [220.132.152.68-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\examples] has finished in [1,123] ms
+21-Aug-2017 19:11:38.299 資訊 [220.132.152.68-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\host-manager]
+21-Aug-2017 19:11:38.409 警告 [220.132.152.68-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = TestDB Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+21-Aug-2017 19:11:38.409 警告 [220.132.152.68-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = TestDB Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "-1" for "maxWait" property, which is being ignored.
+21-Aug-2017 19:11:38.409 資訊 [220.132.152.68-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Aug-2017 19:11:38.409 資訊 [220.132.152.68-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\host-manager] has finished in [110] ms
+21-Aug-2017 19:11:38.424 資訊 [220.132.152.68-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\manager]
+21-Aug-2017 19:11:38.502 警告 [220.132.152.68-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = TestDB Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+21-Aug-2017 19:11:38.502 警告 [220.132.152.68-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = TestDB Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "-1" for "maxWait" property, which is being ignored.
+21-Aug-2017 19:11:38.518 資訊 [220.132.152.68-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Aug-2017 19:11:38.518 資訊 [220.132.152.68-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\manager] has finished in [94] ms
+21-Aug-2017 19:11:38.518 資訊 [220.132.152.68-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\ROOT]
+21-Aug-2017 19:11:38.580 警告 [220.132.152.68-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = TestDB Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+21-Aug-2017 19:11:38.580 警告 [220.132.152.68-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = TestDB Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "-1" for "maxWait" property, which is being ignored.
+21-Aug-2017 19:11:38.580 資訊 [220.132.152.68-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Aug-2017 19:11:38.580 資訊 [220.132.152.68-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\ROOT] has finished in [62] ms
+21-Aug-2017 19:11:38.580 資訊 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-80"]
+21-Aug-2017 19:11:38.596 資訊 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+21-Aug-2017 19:11:38.596 資訊 [main] org.apache.catalina.startup.Catalina.start Server startup in 7059 ms
+21-Aug-2017 19:12:02.987 INFO [http-nio-80-exec-3] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator.initiateService HHH000397: Using ASTQueryTranslatorFactory
+21-Aug-2017 19:13:02.443 資訊 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+21-Aug-2017 19:13:02.443 資訊 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-80"]
+21-Aug-2017 19:13:02.552 資訊 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+21-Aug-2017 19:13:02.693 資訊 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-Aug-2017 19:13:02.724 資訊 [220.132.152.68-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+21-Aug-2017 19:13:02.724 資訊 [220.132.152.68-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+21-Aug-2017 19:13:02.739 資訊 [220.132.152.68-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcher'
+21-Aug-2017 19:13:02.739 資訊 [220.132.152.68-startStop-2] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Aug 21 19:11:36 CST 2017]; parent: Root WebApplicationContext
+21-Aug-2017 19:13:02.739 資訊 [220.132.152.68-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+21-Aug-2017 19:13:02.739 資訊 [220.132.152.68-startStop-2] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing Root WebApplicationContext: startup date [Mon Aug 21 19:11:33 CST 2017]; root of context hierarchy
+21-Aug-2017 19:13:02.739 資訊 [220.132.152.68-startStop-2] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.destroy Closing JPA EntityManagerFactory for persistence unit 'spring-jpa-unit'
+21-Aug-2017 19:13:02.755 資訊 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-80"]
+21-Aug-2017 19:13:02.771 資訊 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+21-Aug-2017 19:13:02.771 資訊 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-80"]
+21-Aug-2017 19:13:02.771 資訊 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+21-Aug-2017 19:13:57.957 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.20
+21-Aug-2017 19:13:57.957 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 2 2017 21:35:49 UTC
+21-Aug-2017 19:13:57.957 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.20.0
+21-Aug-2017 19:13:57.957 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+21-Aug-2017 19:13:57.957 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+21-Aug-2017 19:13:57.957 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Aug-2017 19:13:57.957 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_144\jre
+21-Aug-2017 19:13:57.957 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+21-Aug-2017 19:13:57.957 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-Aug-2017 19:13:57.957 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20
+21-Aug-2017 19:13:57.957 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20
+21-Aug-2017 19:13:57.957 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\conf\logging.properties
+21-Aug-2017 19:13:57.957 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Aug-2017 19:13:57.957 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Aug-2017 19:13:57.957 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Aug-2017 19:13:57.957 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20
+21-Aug-2017 19:13:57.957 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20
+21-Aug-2017 19:13:57.973 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\temp
+21-Aug-2017 19:13:57.973 資訊 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\apache-maven-3.5.0\bin;C:\ProgramData\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Users\Dick_Lin\AppData\Local\GitHubDesktop\bin;.]
+21-Aug-2017 19:13:58.051 資訊 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-80"]
+21-Aug-2017 19:13:58.160 資訊 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Aug-2017 19:13:58.160 資訊 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+21-Aug-2017 19:13:58.160 資訊 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Aug-2017 19:13:58.160 資訊 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 428 ms
+21-Aug-2017 19:13:58.175 資訊 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Aug-2017 19:13:58.175 資訊 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.20
+21-Aug-2017 19:13:58.191 資訊 [220.132.152.68-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\spring-mvc4-jpa.war]
+21-Aug-2017 19:14:00.210 警告 [220.132.152.68-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = TestDB Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+21-Aug-2017 19:14:00.226 警告 [220.132.152.68-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = TestDB Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "-1" for "maxWait" property, which is being ignored.
+21-Aug-2017 19:14:00.304 資訊 [220.132.152.68-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Aug-2017 19:14:00.319 資訊 [220.132.152.68-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+21-Aug-2017 19:14:00.351 資訊 [220.132.152.68-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+21-Aug-2017 19:14:00.351 資訊 [220.132.152.68-startStop-1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+21-Aug-2017 19:14:00.397 資訊 [220.132.152.68-startStop-1] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Mon Aug 21 19:14:00 CST 2017]; root of context hierarchy
+21-Aug-2017 19:14:00.444 資訊 [220.132.152.68-startStop-1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from file [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\spring-mvc4-jpa\WEB-INF\classes\META-INF\spring\iii-data.xml]
+21-Aug-2017 19:14:00.522 資訊 [220.132.152.68-startStop-1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from file [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\spring-mvc4-jpa\WEB-INF\classes\META-INF\spring\iii-service.xml]
+21-Aug-2017 19:14:00.663 資訊 [220.132.152.68-startStop-1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from file [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\spring-mvc4-jpa\WEB-INF\classes\META-INF\spring\iii-ws.xml]
+21-Aug-2017 19:14:00.678 資訊 [220.132.152.68-startStop-1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+21-Aug-2017 19:14:00.694 資訊 [220.132.152.68-startStop-1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from class path resource [META-INF/cxf/cxf-servlet.xml]
+21-Aug-2017 19:14:01.021 資訊 [220.132.152.68-startStop-1] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory Building JPA container EntityManagerFactory for persistence unit 'spring-jpa-unit'
+21-Aug-2017 19:14:01.037 INFO [220.132.152.68-startStop-1] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [
+	name: spring-jpa-unit
+	...]
+21-Aug-2017 19:14:01.131 INFO [220.132.152.68-startStop-1] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.2.10.Final}
+21-Aug-2017 19:14:01.131 INFO [220.132.152.68-startStop-1] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+21-Aug-2017 19:14:01.177 INFO [220.132.152.68-startStop-1] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+21-Aug-2017 19:14:01.505 INFO [220.132.152.68-startStop-1] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+21-Aug-2017 19:14:01.787 INFO [220.132.152.68-startStop-1] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 5.4.1.Final
+21-Aug-2017 19:14:02.114 資訊 [220.132.152.68-startStop-1] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory Initialized JPA EntityManagerFactory for persistence unit 'spring-jpa-unit'
+21-Aug-2017 19:14:02.333 資訊 [220.132.152.68-startStop-1] org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {http://impl.ws.emp.iii.com/}EmployeeSOAPImplService from class com.iii.emp.ws.EmployeeSOAP
+21-Aug-2017 19:14:02.738 資訊 [220.132.152.68-startStop-1] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /iii/emp/ws001
+21-Aug-2017 19:14:02.770 資訊 [220.132.152.68-startStop-1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 2419 ms
+21-Aug-2017 19:14:02.801 資訊 [220.132.152.68-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'dispatcher'
+21-Aug-2017 19:14:02.801 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+21-Aug-2017 19:14:02.801 資訊 [220.132.152.68-startStop-1] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Aug 21 19:14:02 CST 2017]; parent: Root WebApplicationContext
+21-Aug-2017 19:14:02.801 資訊 [220.132.152.68-startStop-1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/mvcConfig/mvcConfig.xml]
+21-Aug-2017 19:14:03.082 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/employee/emps],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.iii.emp.controller.EmployeeController.getEmps()
+21-Aug-2017 19:14:03.082 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/employee/editEmpView/{empno}],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.iii.emp.controller.EmployeeController.getEditEmpForm(java.lang.String)
+21-Aug-2017 19:14:03.082 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/employee/editEmp],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.iii.emp.controller.EmployeeController.editEmpVO(com.iii.emp.domain.EmpVO,com.iii.dept.domain.DeptVO)
+21-Aug-2017 19:14:03.082 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/employee/addEmp],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.iii.emp.controller.EmployeeController.addEmpVO(com.iii.emp.domain.EmpVO,com.iii.dept.domain.DeptVO)
+21-Aug-2017 19:14:03.097 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/employee/deleteEmp],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.iii.emp.controller.EmployeeController.deleteEmp(java.lang.String)
+21-Aug-2017 19:14:03.097 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/restWS/getEmps1],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.iii.emp.controller.EmployeeWSController.getEmps1() throws java.lang.Exception
+21-Aug-2017 19:14:03.097 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/restWS/getEmps2],methods=[GET]}" onto public java.util.List<com.iii.emp.domain.EmpVO> com.iii.emp.controller.EmployeeWSController.getEmps3() throws java.lang.Exception
+21-Aug-2017 19:14:03.097 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/restWS/getEmp/{empno}],methods=[GET]}" onto public com.iii.emp.domain.EmpVO com.iii.emp.controller.EmployeeWSController.getEmp4(java.lang.String)
+21-Aug-2017 19:14:03.097 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/restWS/getEmpLike/{ename}],methods=[GET]}" onto public java.util.List<com.iii.emp.domain.EmpVO> com.iii.emp.controller.EmployeeWSController.getEmp5(java.lang.String)
+21-Aug-2017 19:14:03.097 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/restWS/testDefault]}" onto public java.lang.String com.iii.emp.controller.EmployeeWSController.testDefault()
+21-Aug-2017 19:14:03.331 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Aug 21 19:14:02 CST 2017]; parent: Root WebApplicationContext
+21-Aug-2017 19:14:03.378 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Aug 21 19:14:02 CST 2017]; parent: Root WebApplicationContext
+21-Aug-2017 19:14:03.440 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/addView] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+21-Aug-2017 19:14:03.440 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+21-Aug-2017 19:14:03.472 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 671 ms
+21-Aug-2017 19:14:03.487 資訊 [220.132.152.68-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\spring-mvc4-jpa.war] has finished in [5,296] ms
+21-Aug-2017 19:14:03.487 資訊 [220.132.152.68-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\docs]
+21-Aug-2017 19:14:03.565 警告 [220.132.152.68-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = TestDB Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+21-Aug-2017 19:14:03.565 警告 [220.132.152.68-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = TestDB Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "-1" for "maxWait" property, which is being ignored.
+21-Aug-2017 19:14:03.565 資訊 [220.132.152.68-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Aug-2017 19:14:03.565 資訊 [220.132.152.68-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\docs] has finished in [78] ms
+21-Aug-2017 19:14:03.565 資訊 [220.132.152.68-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\examples]
+21-Aug-2017 19:14:03.721 警告 [220.132.152.68-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = TestDB Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+21-Aug-2017 19:14:03.721 警告 [220.132.152.68-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = TestDB Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "-1" for "maxWait" property, which is being ignored.
+21-Aug-2017 19:14:03.737 資訊 [220.132.152.68-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Aug-2017 19:14:03.768 資訊 [220.132.152.68-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+21-Aug-2017 19:14:03.768 資訊 [220.132.152.68-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+21-Aug-2017 19:14:03.768 資訊 [220.132.152.68-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\examples] has finished in [203] ms
+21-Aug-2017 19:14:03.768 資訊 [220.132.152.68-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\host-manager]
+21-Aug-2017 19:14:03.862 警告 [220.132.152.68-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = TestDB Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+21-Aug-2017 19:14:03.862 警告 [220.132.152.68-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = TestDB Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "-1" for "maxWait" property, which is being ignored.
+21-Aug-2017 19:14:03.862 資訊 [220.132.152.68-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Aug-2017 19:14:03.862 資訊 [220.132.152.68-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\host-manager] has finished in [94] ms
+21-Aug-2017 19:14:03.862 資訊 [220.132.152.68-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\manager]
+21-Aug-2017 19:14:03.940 警告 [220.132.152.68-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = TestDB Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+21-Aug-2017 19:14:03.940 警告 [220.132.152.68-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = TestDB Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "-1" for "maxWait" property, which is being ignored.
+21-Aug-2017 19:14:03.940 資訊 [220.132.152.68-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Aug-2017 19:14:03.940 資訊 [220.132.152.68-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\manager] has finished in [78] ms
+21-Aug-2017 19:14:03.940 資訊 [220.132.152.68-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\ROOT]
+21-Aug-2017 19:14:04.002 警告 [220.132.152.68-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = TestDB Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+21-Aug-2017 19:14:04.002 警告 [220.132.152.68-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = TestDB Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "-1" for "maxWait" property, which is being ignored.
+21-Aug-2017 19:14:04.002 資訊 [220.132.152.68-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Aug-2017 19:14:04.002 資訊 [220.132.152.68-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\ROOT] has finished in [62] ms
+21-Aug-2017 19:14:04.002 資訊 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-80"]
+21-Aug-2017 19:14:04.018 資訊 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+21-Aug-2017 19:14:04.018 資訊 [main] org.apache.catalina.startup.Catalina.start Server startup in 5858 ms
+21-Aug-2017 19:15:58.820 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.20
+21-Aug-2017 19:15:58.820 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 2 2017 21:35:49 UTC
+21-Aug-2017 19:15:58.820 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.20.0
+21-Aug-2017 19:15:58.820 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+21-Aug-2017 19:15:58.820 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+21-Aug-2017 19:15:58.820 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Aug-2017 19:15:58.820 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_144\jre
+21-Aug-2017 19:15:58.820 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+21-Aug-2017 19:15:58.820 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-Aug-2017 19:15:58.820 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20
+21-Aug-2017 19:15:58.820 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20
+21-Aug-2017 19:15:58.836 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\conf\logging.properties
+21-Aug-2017 19:15:58.836 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Aug-2017 19:15:58.836 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Aug-2017 19:15:58.836 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Aug-2017 19:15:58.836 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20
+21-Aug-2017 19:15:58.836 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20
+21-Aug-2017 19:15:58.836 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\temp
+21-Aug-2017 19:15:58.836 資訊 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\apache-maven-3.5.0\bin;C:\ProgramData\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Users\Dick_Lin\AppData\Local\GitHubDesktop\bin;.]
+21-Aug-2017 19:15:58.929 資訊 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-2000"]
+21-Aug-2017 19:15:59.023 資訊 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Aug-2017 19:15:59.023 資訊 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+21-Aug-2017 19:15:59.023 嚴重 [main] org.apache.coyote.AbstractProtocol.init Failed to initialize end point associated with ProtocolHandler ["ajp-nio-8009"]
+ java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:982)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:244)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:620)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:997)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:607)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:630)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:311)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:494)
+
+21-Aug-2017 19:15:59.038 嚴重 [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:607)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:630)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:311)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:494)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:999)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:982)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:244)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:620)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:997)
+	... 13 more
+
+21-Aug-2017 19:15:59.038 資訊 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 442 ms
+21-Aug-2017 19:15:59.054 資訊 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Aug-2017 19:15:59.054 資訊 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.20
+21-Aug-2017 19:15:59.070 資訊 [220.132.152.68-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\spring-mvc4-jpa.war]
+21-Aug-2017 19:16:00.832 警告 [220.132.152.68-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = TestDB Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+21-Aug-2017 19:16:00.832 警告 [220.132.152.68-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = TestDB Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "-1" for "maxWait" property, which is being ignored.
+21-Aug-2017 19:16:03.691 資訊 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+21-Aug-2017 19:16:03.691 資訊 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-80"]
+21-Aug-2017 19:16:03.800 資訊 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+21-Aug-2017 19:16:03.956 資訊 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-Aug-2017 19:16:03.988 資訊 [220.132.152.68-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+21-Aug-2017 19:16:03.988 資訊 [220.132.152.68-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+21-Aug-2017 19:16:04.003 資訊 [220.132.152.68-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcher'
+21-Aug-2017 19:16:04.003 資訊 [220.132.152.68-startStop-2] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Aug 21 19:14:02 CST 2017]; parent: Root WebApplicationContext
+21-Aug-2017 19:16:04.019 資訊 [220.132.152.68-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+21-Aug-2017 19:16:04.019 資訊 [220.132.152.68-startStop-2] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing Root WebApplicationContext: startup date [Mon Aug 21 19:14:00 CST 2017]; root of context hierarchy
+21-Aug-2017 19:16:04.019 資訊 [220.132.152.68-startStop-2] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.destroy Closing JPA EntityManagerFactory for persistence unit 'spring-jpa-unit'
+21-Aug-2017 19:16:04.050 資訊 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-80"]
+21-Aug-2017 19:16:04.050 資訊 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+21-Aug-2017 19:16:04.081 資訊 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-80"]
+21-Aug-2017 19:16:04.097 資訊 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+21-Aug-2017 19:16:07.361 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.20
+21-Aug-2017 19:16:07.361 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 2 2017 21:35:49 UTC
+21-Aug-2017 19:16:07.361 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.20.0
+21-Aug-2017 19:16:07.361 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+21-Aug-2017 19:16:07.361 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+21-Aug-2017 19:16:07.361 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Aug-2017 19:16:07.361 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_144\jre
+21-Aug-2017 19:16:07.361 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+21-Aug-2017 19:16:07.361 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-Aug-2017 19:16:07.361 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20
+21-Aug-2017 19:16:07.377 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20
+21-Aug-2017 19:16:07.377 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\conf\logging.properties
+21-Aug-2017 19:16:07.377 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Aug-2017 19:16:07.377 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Aug-2017 19:16:07.377 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Aug-2017 19:16:07.377 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20
+21-Aug-2017 19:16:07.377 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20
+21-Aug-2017 19:16:07.377 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\temp
+21-Aug-2017 19:16:07.377 資訊 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\apache-maven-3.5.0\bin;C:\ProgramData\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Users\Dick_Lin\AppData\Local\GitHubDesktop\bin;.]
+21-Aug-2017 19:16:07.455 資訊 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-2000"]
+21-Aug-2017 19:16:07.564 資訊 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Aug-2017 19:16:07.564 資訊 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+21-Aug-2017 19:16:07.564 資訊 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Aug-2017 19:16:07.564 資訊 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 429 ms
+21-Aug-2017 19:16:07.595 資訊 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Aug-2017 19:16:07.595 資訊 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.20
+21-Aug-2017 19:16:07.595 資訊 [220.132.152.68-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\spring-mvc4-jpa.war]
+21-Aug-2017 19:16:09.280 警告 [220.132.152.68-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = TestDB Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+21-Aug-2017 19:16:09.280 警告 [220.132.152.68-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = TestDB Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "-1" for "maxWait" property, which is being ignored.
+21-Aug-2017 19:16:09.389 資訊 [220.132.152.68-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Aug-2017 19:16:09.405 資訊 [220.132.152.68-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+21-Aug-2017 19:16:09.436 資訊 [220.132.152.68-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+21-Aug-2017 19:16:09.436 資訊 [220.132.152.68-startStop-1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+21-Aug-2017 19:16:09.483 資訊 [220.132.152.68-startStop-1] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Mon Aug 21 19:16:09 CST 2017]; root of context hierarchy
+21-Aug-2017 19:16:09.530 資訊 [220.132.152.68-startStop-1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from file [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\spring-mvc4-jpa\WEB-INF\classes\META-INF\spring\iii-data.xml]
+21-Aug-2017 19:16:09.623 資訊 [220.132.152.68-startStop-1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from file [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\spring-mvc4-jpa\WEB-INF\classes\META-INF\spring\iii-service.xml]
+21-Aug-2017 19:16:09.795 資訊 [220.132.152.68-startStop-1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from file [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\spring-mvc4-jpa\WEB-INF\classes\META-INF\spring\iii-ws.xml]
+21-Aug-2017 19:16:09.810 資訊 [220.132.152.68-startStop-1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+21-Aug-2017 19:16:09.810 資訊 [220.132.152.68-startStop-1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from class path resource [META-INF/cxf/cxf-servlet.xml]
+21-Aug-2017 19:16:10.138 資訊 [220.132.152.68-startStop-1] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory Building JPA container EntityManagerFactory for persistence unit 'spring-jpa-unit'
+21-Aug-2017 19:16:10.169 INFO [220.132.152.68-startStop-1] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [
+	name: spring-jpa-unit
+	...]
+21-Aug-2017 19:16:10.247 INFO [220.132.152.68-startStop-1] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.2.10.Final}
+21-Aug-2017 19:16:10.247 INFO [220.132.152.68-startStop-1] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+21-Aug-2017 19:16:10.294 INFO [220.132.152.68-startStop-1] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+21-Aug-2017 19:16:10.637 INFO [220.132.152.68-startStop-1] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+21-Aug-2017 19:16:10.934 INFO [220.132.152.68-startStop-1] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 5.4.1.Final
+21-Aug-2017 19:16:11.261 資訊 [220.132.152.68-startStop-1] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory Initialized JPA EntityManagerFactory for persistence unit 'spring-jpa-unit'
+21-Aug-2017 19:16:11.495 資訊 [220.132.152.68-startStop-1] org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {http://impl.ws.emp.iii.com/}EmployeeSOAPImplService from class com.iii.emp.ws.EmployeeSOAP
+21-Aug-2017 19:16:11.886 資訊 [220.132.152.68-startStop-1] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /iii/emp/ws001
+21-Aug-2017 19:16:11.917 資訊 [220.132.152.68-startStop-1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 2481 ms
+21-Aug-2017 19:16:11.964 資訊 [220.132.152.68-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'dispatcher'
+21-Aug-2017 19:16:11.964 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+21-Aug-2017 19:16:11.964 資訊 [220.132.152.68-startStop-1] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Aug 21 19:16:11 CST 2017]; parent: Root WebApplicationContext
+21-Aug-2017 19:16:11.964 資訊 [220.132.152.68-startStop-1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/mvcConfig/mvcConfig.xml]
+21-Aug-2017 19:16:12.292 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/employee/editEmpView/{empno}],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.iii.emp.controller.EmployeeController.getEditEmpForm(java.lang.String)
+21-Aug-2017 19:16:12.292 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/employee/editEmp],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.iii.emp.controller.EmployeeController.editEmpVO(com.iii.emp.domain.EmpVO,com.iii.dept.domain.DeptVO)
+21-Aug-2017 19:16:12.292 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/employee/addEmp],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.iii.emp.controller.EmployeeController.addEmpVO(com.iii.emp.domain.EmpVO,com.iii.dept.domain.DeptVO)
+21-Aug-2017 19:16:12.292 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/employee/deleteEmp],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.iii.emp.controller.EmployeeController.deleteEmp(java.lang.String)
+21-Aug-2017 19:16:12.292 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/employee/emps],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.iii.emp.controller.EmployeeController.getEmps()
+21-Aug-2017 19:16:12.292 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/restWS/getEmps1],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.iii.emp.controller.EmployeeWSController.getEmps1() throws java.lang.Exception
+21-Aug-2017 19:16:12.307 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/restWS/getEmps2],methods=[GET]}" onto public java.util.List<com.iii.emp.domain.EmpVO> com.iii.emp.controller.EmployeeWSController.getEmps3() throws java.lang.Exception
+21-Aug-2017 19:16:12.307 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/restWS/getEmp/{empno}],methods=[GET]}" onto public com.iii.emp.domain.EmpVO com.iii.emp.controller.EmployeeWSController.getEmp4(java.lang.String)
+21-Aug-2017 19:16:12.307 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/restWS/getEmpLike/{ename}],methods=[GET]}" onto public java.util.List<com.iii.emp.domain.EmpVO> com.iii.emp.controller.EmployeeWSController.getEmp5(java.lang.String)
+21-Aug-2017 19:16:12.307 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/restWS/testDefault]}" onto public java.lang.String com.iii.emp.controller.EmployeeWSController.testDefault()
+21-Aug-2017 19:16:12.557 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Aug 21 19:16:11 CST 2017]; parent: Root WebApplicationContext
+21-Aug-2017 19:16:12.604 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Aug 21 19:16:11 CST 2017]; parent: Root WebApplicationContext
+21-Aug-2017 19:16:12.682 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/addView] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+21-Aug-2017 19:16:12.697 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+21-Aug-2017 19:16:12.744 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 780 ms
+21-Aug-2017 19:16:12.760 資訊 [220.132.152.68-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\spring-mvc4-jpa.war] has finished in [5,165] ms
+21-Aug-2017 19:16:12.760 資訊 [220.132.152.68-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\docs]
+21-Aug-2017 19:16:12.822 警告 [220.132.152.68-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = TestDB Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+21-Aug-2017 19:16:12.822 警告 [220.132.152.68-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = TestDB Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "-1" for "maxWait" property, which is being ignored.
+21-Aug-2017 19:16:12.838 資訊 [220.132.152.68-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Aug-2017 19:16:12.838 資訊 [220.132.152.68-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\docs] has finished in [78] ms
+21-Aug-2017 19:16:12.838 資訊 [220.132.152.68-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\examples]
+21-Aug-2017 19:16:12.978 警告 [220.132.152.68-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = TestDB Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+21-Aug-2017 19:16:12.978 警告 [220.132.152.68-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = TestDB Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "-1" for "maxWait" property, which is being ignored.
+21-Aug-2017 19:16:13.009 資訊 [220.132.152.68-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Aug-2017 19:16:13.025 資訊 [220.132.152.68-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+21-Aug-2017 19:16:13.025 資訊 [220.132.152.68-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+21-Aug-2017 19:16:13.041 資訊 [220.132.152.68-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\examples] has finished in [203] ms
+21-Aug-2017 19:16:13.041 資訊 [220.132.152.68-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\host-manager]
+21-Aug-2017 19:16:13.134 警告 [220.132.152.68-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = TestDB Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+21-Aug-2017 19:16:13.134 警告 [220.132.152.68-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = TestDB Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "-1" for "maxWait" property, which is being ignored.
+21-Aug-2017 19:16:13.134 資訊 [220.132.152.68-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Aug-2017 19:16:13.134 資訊 [220.132.152.68-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\host-manager] has finished in [93] ms
+21-Aug-2017 19:16:13.134 資訊 [220.132.152.68-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\manager]
+21-Aug-2017 19:16:13.228 警告 [220.132.152.68-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = TestDB Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+21-Aug-2017 19:16:13.228 警告 [220.132.152.68-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = TestDB Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "-1" for "maxWait" property, which is being ignored.
+21-Aug-2017 19:16:13.228 資訊 [220.132.152.68-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Aug-2017 19:16:13.228 資訊 [220.132.152.68-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\manager] has finished in [94] ms
+21-Aug-2017 19:16:13.228 資訊 [220.132.152.68-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\ROOT]
+21-Aug-2017 19:16:13.306 警告 [220.132.152.68-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = TestDB Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+21-Aug-2017 19:16:13.321 警告 [220.132.152.68-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = TestDB Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "-1" for "maxWait" property, which is being ignored.
+21-Aug-2017 19:16:13.321 資訊 [220.132.152.68-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Aug-2017 19:16:13.321 資訊 [220.132.152.68-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\ROOT] has finished in [93] ms
+21-Aug-2017 19:16:13.321 資訊 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-2000"]
+21-Aug-2017 19:16:13.321 資訊 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+21-Aug-2017 19:16:13.337 資訊 [main] org.apache.catalina.startup.Catalina.start Server startup in 5759 ms
+21-Aug-2017 19:16:30.861 INFO [http-nio-2000-exec-3] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator.initiateService HHH000397: Using ASTQueryTranslatorFactory
+21-Aug-2017 19:48:39.829 警告 [http-nio-2000-exec-7] org.springframework.web.servlet.PageNotFound.noHandlerFound No mapping found for HTTP request with URI [/spring-mvc4-jpa/restWS/getEmp/] in DispatcherServlet with name 'dispatcher'
+21-Aug-2017 20:08:59.457 嚴重 [http-nio-2000-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [dispatcher] in context with path [/spring-mvc4-jpa] threw exception [Request processing failed; nested exception is com.iii.framework.core.exception.ServiceException: [EMP][10001][查無資料]] with root cause
+ com.iii.framework.core.exception.ServiceException: [EMP][10001][查無資料]
+	at com.iii.emp.controller.EmployeeWSController.getEmp4(EmployeeWSController.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1457)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+21-Aug-2017 22:39:48.957 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.20
+21-Aug-2017 22:39:48.972 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 2 2017 21:35:49 UTC
+21-Aug-2017 22:39:48.972 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.20.0
+21-Aug-2017 22:39:48.972 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+21-Aug-2017 22:39:48.972 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+21-Aug-2017 22:39:48.972 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Aug-2017 22:39:48.972 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_144\jre
+21-Aug-2017 22:39:48.972 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+21-Aug-2017 22:39:48.972 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-Aug-2017 22:39:48.972 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20
+21-Aug-2017 22:39:48.972 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20
+21-Aug-2017 22:39:48.972 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\conf\logging.properties
+21-Aug-2017 22:39:48.972 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Aug-2017 22:39:48.972 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Aug-2017 22:39:48.972 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Aug-2017 22:39:48.972 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20
+21-Aug-2017 22:39:48.972 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20
+21-Aug-2017 22:39:48.972 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\temp
+21-Aug-2017 22:39:48.972 資訊 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\apache-maven-3.5.0\bin;C:\ProgramData\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Users\Dick_Lin\AppData\Local\GitHubDesktop\bin;.]
+21-Aug-2017 22:39:49.056 資訊 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-2000"]
+21-Aug-2017 22:39:49.173 資訊 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Aug-2017 22:39:49.173 資訊 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+21-Aug-2017 22:39:49.173 資訊 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Aug-2017 22:39:49.173 資訊 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 464 ms
+21-Aug-2017 22:39:49.189 資訊 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Aug-2017 22:39:49.189 資訊 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.20
+21-Aug-2017 22:39:49.204 資訊 [220.132.152.68-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\spring-mvc4-jpa.war]
+21-Aug-2017 22:39:50.971 警告 [220.132.152.68-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = TestDB Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+21-Aug-2017 22:39:50.972 警告 [220.132.152.68-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = TestDB Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "-1" for "maxWait" property, which is being ignored.
+21-Aug-2017 22:39:51.072 資訊 [220.132.152.68-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Aug-2017 22:39:51.095 資訊 [220.132.152.68-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+21-Aug-2017 22:39:51.112 資訊 [220.132.152.68-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+21-Aug-2017 22:39:51.112 資訊 [220.132.152.68-startStop-1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+21-Aug-2017 22:39:51.159 資訊 [220.132.152.68-startStop-1] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Mon Aug 21 22:39:51 CST 2017]; root of context hierarchy
+21-Aug-2017 22:39:51.199 資訊 [220.132.152.68-startStop-1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from file [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\spring-mvc4-jpa\WEB-INF\classes\META-INF\spring\iii-data.xml]
+21-Aug-2017 22:39:51.308 資訊 [220.132.152.68-startStop-1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from file [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\spring-mvc4-jpa\WEB-INF\classes\META-INF\spring\iii-service.xml]
+21-Aug-2017 22:39:51.435 資訊 [220.132.152.68-startStop-1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from file [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\spring-mvc4-jpa\WEB-INF\classes\META-INF\spring\iii-ws.xml]
+21-Aug-2017 22:39:51.451 資訊 [220.132.152.68-startStop-1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+21-Aug-2017 22:39:51.451 資訊 [220.132.152.68-startStop-1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from class path resource [META-INF/cxf/cxf-servlet.xml]
+21-Aug-2017 22:39:51.816 資訊 [220.132.152.68-startStop-1] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory Building JPA container EntityManagerFactory for persistence unit 'spring-jpa-unit'
+21-Aug-2017 22:39:51.845 INFO [220.132.152.68-startStop-1] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [
+	name: spring-jpa-unit
+	...]
+21-Aug-2017 22:39:51.939 INFO [220.132.152.68-startStop-1] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.2.10.Final}
+21-Aug-2017 22:39:51.942 INFO [220.132.152.68-startStop-1] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+21-Aug-2017 22:39:52.005 INFO [220.132.152.68-startStop-1] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+21-Aug-2017 22:39:52.388 INFO [220.132.152.68-startStop-1] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+21-Aug-2017 22:39:52.719 INFO [220.132.152.68-startStop-1] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 5.4.1.Final
+21-Aug-2017 22:39:53.088 資訊 [220.132.152.68-startStop-1] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory Initialized JPA EntityManagerFactory for persistence unit 'spring-jpa-unit'
+21-Aug-2017 22:39:53.321 資訊 [220.132.152.68-startStop-1] org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {http://impl.ws.emp.iii.com/}EmployeeSOAPImplService from class com.iii.emp.ws.EmployeeSOAP
+21-Aug-2017 22:39:53.697 資訊 [220.132.152.68-startStop-1] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /iii/emp/ws001
+21-Aug-2017 22:39:53.745 資訊 [220.132.152.68-startStop-1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 2633 ms
+21-Aug-2017 22:39:53.767 資訊 [220.132.152.68-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'dispatcher'
+21-Aug-2017 22:39:53.767 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+21-Aug-2017 22:39:53.767 資訊 [220.132.152.68-startStop-1] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Aug 21 22:39:53 CST 2017]; parent: Root WebApplicationContext
+21-Aug-2017 22:39:53.767 資訊 [220.132.152.68-startStop-1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/mvcConfig/mvcConfig.xml]
+21-Aug-2017 22:39:54.070 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/employee/editEmpView/{empno}],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.iii.emp.controller.EmployeeController.getEditEmpForm(java.lang.String)
+21-Aug-2017 22:39:54.072 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/employee/editEmp],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.iii.emp.controller.EmployeeController.editEmpVO(com.iii.emp.domain.EmpVO,com.iii.dept.domain.DeptVO)
+21-Aug-2017 22:39:54.073 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/employee/addEmp],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.iii.emp.controller.EmployeeController.addEmpVO(com.iii.emp.domain.EmpVO,com.iii.dept.domain.DeptVO)
+21-Aug-2017 22:39:54.073 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/employee/deleteEmp],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.iii.emp.controller.EmployeeController.deleteEmp(java.lang.String)
+21-Aug-2017 22:39:54.074 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/employee/emps],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.iii.emp.controller.EmployeeController.getEmps()
+21-Aug-2017 22:39:54.077 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/restWS/getEmps1],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.iii.emp.controller.EmployeeWSController.getEmps1() throws java.lang.Exception
+21-Aug-2017 22:39:54.077 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/restWS/getEmps2],methods=[GET]}" onto public java.util.List<com.iii.emp.domain.EmpVO> com.iii.emp.controller.EmployeeWSController.getEmps3() throws java.lang.Exception
+21-Aug-2017 22:39:54.077 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/restWS/getEmp/{empno}],methods=[GET]}" onto public com.iii.emp.domain.EmpVO com.iii.emp.controller.EmployeeWSController.getEmp4(java.lang.String)
+21-Aug-2017 22:39:54.077 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/restWS/getEmpLike/{ename}],methods=[GET]}" onto public java.util.List<com.iii.emp.domain.EmpVO> com.iii.emp.controller.EmployeeWSController.getEmp5(java.lang.String)
+21-Aug-2017 22:39:54.077 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/restWS/testDefault]}" onto public java.lang.String com.iii.emp.controller.EmployeeWSController.testDefault()
+21-Aug-2017 22:39:54.317 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Aug 21 22:39:53 CST 2017]; parent: Root WebApplicationContext
+21-Aug-2017 22:39:54.361 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Aug 21 22:39:53 CST 2017]; parent: Root WebApplicationContext
+21-Aug-2017 22:39:54.417 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/addView] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+21-Aug-2017 22:39:54.432 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+21-Aug-2017 22:39:54.448 資訊 [220.132.152.68-startStop-1] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 681 ms
+21-Aug-2017 22:39:54.473 資訊 [220.132.152.68-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\spring-mvc4-jpa.war] has finished in [5,269] ms
+21-Aug-2017 22:39:54.476 資訊 [220.132.152.68-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\docs]
+21-Aug-2017 22:39:54.558 警告 [220.132.152.68-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = TestDB Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+21-Aug-2017 22:39:54.561 警告 [220.132.152.68-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = TestDB Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "-1" for "maxWait" property, which is being ignored.
+21-Aug-2017 22:39:54.565 資訊 [220.132.152.68-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Aug-2017 22:39:54.568 資訊 [220.132.152.68-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\docs] has finished in [92] ms
+21-Aug-2017 22:39:54.569 資訊 [220.132.152.68-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\examples]
+21-Aug-2017 22:39:54.692 警告 [220.132.152.68-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = TestDB Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+21-Aug-2017 22:39:54.693 警告 [220.132.152.68-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = TestDB Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "-1" for "maxWait" property, which is being ignored.
+21-Aug-2017 22:39:54.718 資訊 [220.132.152.68-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Aug-2017 22:39:54.737 資訊 [220.132.152.68-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+21-Aug-2017 22:39:54.738 資訊 [220.132.152.68-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+21-Aug-2017 22:39:54.745 資訊 [220.132.152.68-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\examples] has finished in [176] ms
+21-Aug-2017 22:39:54.746 資訊 [220.132.152.68-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\host-manager]
+21-Aug-2017 22:39:54.834 警告 [220.132.152.68-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = TestDB Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+21-Aug-2017 22:39:54.835 警告 [220.132.152.68-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = TestDB Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "-1" for "maxWait" property, which is being ignored.
+21-Aug-2017 22:39:54.838 資訊 [220.132.152.68-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Aug-2017 22:39:54.841 資訊 [220.132.152.68-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\host-manager] has finished in [95] ms
+21-Aug-2017 22:39:54.841 資訊 [220.132.152.68-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\manager]
+21-Aug-2017 22:39:54.915 警告 [220.132.152.68-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = TestDB Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+21-Aug-2017 22:39:54.916 警告 [220.132.152.68-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = TestDB Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "-1" for "maxWait" property, which is being ignored.
+21-Aug-2017 22:39:54.919 資訊 [220.132.152.68-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Aug-2017 22:39:54.921 資訊 [220.132.152.68-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\manager] has finished in [80] ms
+21-Aug-2017 22:39:54.921 資訊 [220.132.152.68-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\ROOT]
+21-Aug-2017 22:39:54.979 警告 [220.132.152.68-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = TestDB Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+21-Aug-2017 22:39:54.980 警告 [220.132.152.68-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = TestDB Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "-1" for "maxWait" property, which is being ignored.
+21-Aug-2017 22:39:54.982 資訊 [220.132.152.68-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Aug-2017 22:39:54.984 資訊 [220.132.152.68-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\apache-tomcat-8.5.20\apache-tomcat-8.5.20\webapps\ROOT] has finished in [63] ms
+21-Aug-2017 22:39:54.988 資訊 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-2000"]
+21-Aug-2017 22:39:54.994 資訊 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+21-Aug-2017 22:39:54.996 資訊 [main] org.apache.catalina.startup.Catalina.start Server startup in 5809 ms
+21-Aug-2017 22:40:01.851 嚴重 [main] org.apache.catalina.startup.Catalina.stopServer Could not contact [localhost:[8005]]. Tomcat may not be running.
+21-Aug-2017 22:40:01.864 嚴重 [main] org.apache.catalina.startup.Catalina.stopServer Catalina.stop: 
+ java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at org.apache.catalina.startup.Catalina.stopServer(Catalina.java:477)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.stopServer(Bootstrap.java:408)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:497)
+
